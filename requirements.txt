@@ -1,0 +1,2 @@
+# Tuỳ chọn: để xem lại / lưu ảnh mã QR trong GUI. Phần còn lại chỉ dùng thư viện chuẩn.
+qrcode[pil]>=7.4

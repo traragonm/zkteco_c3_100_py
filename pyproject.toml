@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zkc3"
+version = "1.0.0"
+description = "Điều khiển bộ kiểm soát ra vào ZKTeco C3-100 qua PullSDK (plcommpro.dll): thư viện, CLI và GUI tkinter"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+qr = ["qrcode[pil]>=7.4"]
+
+[project.scripts]
+zkc3 = "zkc3.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["zkc3*"]

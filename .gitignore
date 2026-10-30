@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv*/
+venv*/
+
+# DLL PullSDK là của ZKTeco: không đưa lên repo, mỗi máy tự chép vào sdk/
+sdk/*.dll
+
+# Dữ liệu lúc chạy (có thể chứa token Verify API, log quét thẻ)
+settings.json
+logs/
